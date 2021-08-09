@@ -1,0 +1,128 @@
+*{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14;
+}
+.container{
+    height: 100vh;
+    
+}
+.title-bar{
+    height: 5vh;
+    background-color: #107c41;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.menue-bar{
+    height: 5vh;
+    display: flex;
+    color: white;
+   background-color: #107c41;
+    
+}
+.menue-item{
+    padding-left: 10px;
+    padding-right: 10px;
+    font: 16;
+    display: flex;
+    align-items: center;
+}
+.menue-item.selected{
+    background-color: #fff;
+    color: #107c41;
+}
+.menue-item:hover{
+    background-color: #0c5e31;
+    
+    cursor: pointer;
+}
+.menue-item.selected:hover{
+    background-color: #fff;
+    
+}
+.menue-icon-bar{
+    height: 6vh;
+    display: flex;
+    cursor: pointer;
+    background-color: rgb(255, 247, 247);
+     text-align: center;
+     
+}
+.menue-icon{
+padding-left: 10px;
+padding-right: 10px;
+height: 100%;
+display: flex;
+text-align: center;
+ 
+cursor: pointer;
+}
+.menue-icon:hover{
+    background-color: rgb(145, 138, 138);
+    cursor: pointer;
+}
+.font-family-selector{
+height: 30px;
+font-size: 18px;
+width: 150px;
+}
+.selector{
+    height: 30px; 
+    font-size: 18px;
+}
+option{
+    font-size: 18px;
+
+}
+
+.formula-bar{
+    height: 5vh;
+   
+}
+.data-container{
+    height: 75vh;
+}
+.sheet-bar{
+    height: 4vh;
+    display: flex;
+     
+}
+.icon-left-scroll .icon-right-scroll{
+    font-size: 30px;
+
+}
+.icon-left-scroll:hover,.icon-right-scroll:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.icon-add{
+    color: #0c5e31;
+    width: 40px;
+    
+}
+.icon-add:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.sheet-tab-container{
+    border: 1px solid lightgray;
+    width: calc(100vw-110px);
+}
+.sheet-tab{
+    border-bottom:4px solid #0c5e31;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    border-right: 1px solid lightgray;
+
+}
+.sheet-tab{
+    cursor: default;
+}
