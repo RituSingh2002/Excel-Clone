@@ -84,6 +84,28 @@ option{
 }
 .data-container{
     height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.selectall{
+    width: 30px;
+    height: 30px;
+    border:6px yellow solid;
+}
+.coloumn-name-container{
+    width: calc(100vw-30px);
+    height: 30px;
+    border: 8px red solid;
+}
+.row-name-container{
+    width: 30px;
+    height: calc(75vh-30px);
+    border: 1px blue solid;
+}
+.input-cell-container{
+    width: calc(100vw-30px);
+    height: calc(75vh-30px);
+    border: 1px solid  pink;
 }
 .sheet-bar{
     height: 4vh;
@@ -105,7 +127,7 @@ option{
 }
 .icon-add:hover{
     transform: scale(1.2);
-    cursor: pointer;
+    cursor: pointer;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 }
 .sheet-tab-container{
     border: 1px solid lightgray;
